@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.administrator.animationproject.MainActivity">
+    tools:context="com.example.administrator.animationproject.activity.MainActivity">
 
 
     <LinearLayout
@@ -31,6 +31,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="customAnim"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/custom_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ColorAnim"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
     </LinearLayout>
 
     <LinearLayout
@@ -41,13 +54,22 @@
         <ImageView
             android:id="@+id/img"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:src="@mipmap/ic_launcher_round"/>
 
         <com.example.administrator.animationproject.customview.CustomerCircle
             android:id="@+id/circle"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="ColorAnimation"
+            android:layout_weight="1"/>
     </LinearLayout>
 
 
