@@ -1,1 +1,3 @@
-include ':app', ':kotterknife'
+include ':app'
+include ':kotterknife'
+
