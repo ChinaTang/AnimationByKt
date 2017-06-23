@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.example.administrator.animationproject.R;
+
 
 public class LoadMoreDefaultFooterView extends RelativeLayout implements LoadMoreUIHandler {
 

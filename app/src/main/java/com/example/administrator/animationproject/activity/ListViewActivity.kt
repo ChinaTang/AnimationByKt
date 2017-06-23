@@ -45,6 +45,8 @@ class ListViewActivity: AppCompatActivity(){
 
     private fun initData(){
         srcArray.add("gridAnimation")
+        srcArray.add("ListView上拉加载下拉刷新")
         classArray.add(GrideViewActivity::class.java)
+        classArray.add(ListViewAnimationActivity::class.java)
     }
 }
